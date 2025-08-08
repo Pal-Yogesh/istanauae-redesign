@@ -1,6 +1,5 @@
 "use client"
-
-import { createContext, useContext, useEffect, useState, ReactNode } from "react"
+import { createContext, useContext, useEffect, useState, ReactNode, useCallback } from "react"
 
 interface CartItem {
   id: string
@@ -41,10 +40,9 @@ export function CartProvider({ children }: { children: ReactNode }) {
     localStorage.setItem('istana-cart', JSON.stringify(items))
   }, [items])
 
-  const addItem = (newItem: Omit<CartItem, 'quantity'> & { quantity?: number }) => {
+  const addItem = useCallback((newItem: Omit<CartItem, 'quantity'> & { quantity?: number }) => {
     setItems(currentItems => {
       const existingItem = currentItems.find(item => item.id === newItem.id)
-      
       if (existingItem) {
         return currentItems.map(item =>
           item.id === newItem.id
@@ -52,31 +50,29 @@ export function CartProvider({ children }: { children: ReactNode }) {
             : item
         )
       }
-      
       return [...currentItems, { ...newItem, quantity: newItem.quantity || 1 }]
     })
-  }
+  }, [])
 
-  const removeItem = (id: string) => {
+  const removeItem = useCallback((id: string) => {
     setItems(currentItems => currentItems.filter(item => item.id !== id))
-  }
+  }, [])
 
-  const updateQuantity = (id: string, quantity: number) => {
+  const updateQuantity = useCallback((id: string, quantity: number) => {
     if (quantity <= 0) {
       removeItem(id)
       return
     }
-    
     setItems(currentItems =>
       currentItems.map(item =>
         item.id === id ? { ...item, quantity } : item
       )
     )
-  }
+  }, [removeItem])
 
-  const clearCart = () => {
+  const clearCart = useCallback(() => {
     setItems([])
-  }
+  }, [])
 
   const total = items.reduce((sum, item) => sum + (item.price * item.quantity), 0)
 

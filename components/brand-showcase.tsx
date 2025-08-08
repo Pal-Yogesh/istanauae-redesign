@@ -161,10 +161,10 @@ export default function BrandShowcase() {
         transition={{ duration: 0.8 }}
       >
         <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-stone-900 mb-6">
-          Curated
+          Curated Brands
           <br />
           <span className="text-transparent bg-gradient-to-r from-amber-500 to-amber-700 bg-clip-text">
-            Collections
+          &  Collections
           </span>
         </h2>
         <p className="text-lg sm:text-xl text-stone-600 font-light max-w-3xl mx-auto leading-relaxed">
