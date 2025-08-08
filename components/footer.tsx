@@ -148,13 +148,17 @@ export default function Footer() {
                   <div className="flex items-start space-x-3">
                     <MapPin className="w-5 h-5 text-amber-500 mt-1 flex-shrink-0" />
                     <div>
-                      <p className="text-stone-300 font-light text-sm">Dubai Flagship</p>
-                      <p className="text-stone-400 font-light text-sm">Gold Souk, Deira, Dubai, UAE</p>
+                      <p className="text-stone-300 font-light text-sm">ISTANA HEAD OFFICE & VIP SALON</p>
+                      <p className="text-stone-400 font-light text-sm">604, Anantara Downtown – Business Tower,
+
+                        Marasi Drive, Business Bay,
+
+                        Dubai, UAE</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Phone className="w-5 h-5 text-amber-500 flex-shrink-0" />
-                    <p className="text-stone-300 font-light text-sm">+971 4 123 4567</p>
+                    <p className="text-stone-300 font-light text-sm">+971 4 265 1111</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-amber-500 flex-shrink-0" />
@@ -165,7 +169,9 @@ export default function Footer() {
                 {/* Other Locations */}
                 <div className="mt-6 pt-6 border-t border-stone-800">
                   <p className="text-stone-400 font-light text-sm mb-2">Other Locations:</p>
-                  <p className="text-stone-300 font-light text-sm">London • Hong Kong</p>
+                  <p className="text-stone-300 font-light text-sm">Four Seasons Resort Dubai at Jumeirah Beach,
+
+Dubai, UAE</p>
                 </div>
               </motion.div>
             </div>

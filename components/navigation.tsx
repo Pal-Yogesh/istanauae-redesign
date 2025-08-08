@@ -84,7 +84,7 @@ export default function Navigation({ currentSection,  onCartClick, cartItemCount
               isScrolled ? 'text-stone-600' : 'text-white/80'
             }`}>
               <Phone className="w-4 h-4" />
-              <span className="font-light">+971 4 123 4567</span>
+              <span className="font-light">+971 4 265 1111</span>
             </div>
             <div className={`flex items-center space-x-2 ${
               isScrolled ? 'text-stone-600' : 'text-white/80'
@@ -164,7 +164,7 @@ export default function Navigation({ currentSection,  onCartClick, cartItemCount
               <div className="pt-8 space-y-4 text-center">
                 <div className="flex items-center justify-center space-x-2 text-stone-600">
                   <Phone className="w-4 h-4" />
-                  <span className="font-light">+971 4 123 4567</span>
+                  <span className="font-light">+971 4 265 1111</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2 text-stone-600">
                   <MapPin className="w-4 h-4" />
