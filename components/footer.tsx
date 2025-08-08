@@ -183,7 +183,7 @@ export default function Footer() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
               <p className="text-stone-400 font-light text-sm text-center sm:text-left">
-                © 2024 Istana Jewellers. All rights reserved. Crafting excellence since 1924.
+                © 2025 Istana Jewellers. All rights reserved. Crafting excellence since 1924.
               </p>
               <div className="flex space-x-6 text-sm">
                 {["Privacy Policy", "Terms of Service", "Cookie Policy"].map((item) => (

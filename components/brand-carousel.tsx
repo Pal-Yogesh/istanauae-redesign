@@ -9,7 +9,7 @@ import { useCart } from "@/hooks/use-cart"
 const brands = [
   {
     id: 1,
-    name: "Cartier",
+    name: "Istana Private Collection",
     description: "French luxury and timeless elegance",
     image: "/luxury-jewelry-display.png",
     price: "$15,000",
@@ -17,7 +17,7 @@ const brands = [
   },
   {
     id: 2,
-    name: "Tiffany & Co",
+    name: "Mattia Cielo",
     description: "Iconic American jewelry house",
     image: "/tiffany-blue-jewelry-diamonds.png",
     price: "$8,500",
@@ -25,7 +25,7 @@ const brands = [
   },
   {
     id: 3,
-    name: "Van Cleef & Arpels",
+    name: "Adler Joailliers Depuis 1886",
     description: "Poetry in precious stones",
     image: "/butterfly-pendant.png",
     price: "$25,000",
@@ -33,7 +33,55 @@ const brands = [
   },
   {
     id: 4,
-    name: "Bulgari",
+    name: "Chanteder Capri",
+    description: "Italian magnificence and bold design",
+    image: "/serpenti-gold-jewelry.png",
+    price: "$12,000",
+    category: "Statement Pieces"
+  },
+  {
+    id: 5,
+    name: "Forms Hong Kong",
+    description: "Italian magnificence and bold design",
+    image: "/serpenti-gold-jewelry.png",
+    price: "$12,000",
+    category: "Statement Pieces"
+  },
+  {
+    id: 6,
+    name: "Adolfo Courrer",
+    description: "Italian magnificence and bold design",
+    image: "/serpenti-gold-jewelry.png",
+    price: "$12,000",
+    category: "Statement Pieces"
+  },
+  {
+    id: 7,
+    name: "Fullord",
+    description: "Italian magnificence and bold design",
+    image: "/serpenti-gold-jewelry.png",
+    price: "$12,000",
+    category: "Statement Pieces"
+  },
+  {
+    id: 8,
+    name: "Verdi",
+    description: "Italian magnificence and bold design",
+    image: "/serpenti-gold-jewelry.png",
+    price: "$12,000",
+    category: "Statement Pieces"
+  },
+  {
+    id: 9,
+    name: "Genius Gioielli",
+    description: "Italian magnificence and bold design",
+    image: "https://istanauae.com/wp-content/uploads/genius-logo.webp",
+    price: "$12,000",
+    category: "Statement Pieces"
+  },
+  {
+    id: 8,
+    name: "Borsari Gioielli",
     description: "Italian magnificence and bold design",
     image: "/serpenti-gold-jewelry.png",
     price: "$12,000",

@@ -117,7 +117,7 @@ export default function HeroSection() {
           <Button 
             variant="outline" 
             size="lg"
-            className="border-white text-white hover:bg-white hover:text-stone-900 px-8 sm:px-12 py-3 sm:py-4 text-base sm:text-lg font-light tracking-wide w-full sm:w-auto"
+            className=" text-black hover:bg-amber-400 hover:text-stone-900 px-8 sm:px-12 py-3 sm:py-4 text-base sm:text-lg font-light tracking-wide w-full sm:w-auto"
             onClick={() => setIsVideoPlaying(!isVideoPlaying)}
           >
             <Play className="w-5 h-5 mr-2" />
@@ -125,16 +125,7 @@ export default function HeroSection() {
           </Button>
         </motion.div>
 
-        {/* Scroll Indicator */}
-        <motion.div 
-          className="absolute bottom-8 sm:bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-          style={{ opacity }}
-        >
-          <span className="text-xs sm:text-sm font-light text-white/80 mb-2 tracking-wide">SCROLL TO DISCOVER</span>
-          <ChevronDown className="w-5 h-5 sm:w-6 sm:h-6 text-white/80" />
-        </motion.div>
+       
       </motion.div>
     </div>
   )

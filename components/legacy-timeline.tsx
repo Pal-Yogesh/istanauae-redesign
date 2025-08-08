@@ -12,7 +12,7 @@ const timelineEvents = [
     description: "Istana Jewellers begins its journey in the heart of the UAE, establishing the foundation of excellence that continues today. Starting as a small family business in the bustling souks of old Dubai.",
     icon: MapPin,
     location: "Dubai, UAE",
-    image: "/vintage-dubai-souk.png",
+    image: "https://plus.unsplash.com/premium_photo-1709033404514-c3953af680b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8amV3ZWxyeXxlbnwwfHwwfHx8MA%3D%3D",
     milestone: "Foundation",
     details: "Our founder, Ahmed Al-Mansouri, opened the first Istana boutique with a vision to bring the finest jewelry to the Middle East."
   },
@@ -22,7 +22,7 @@ const timelineEvents = [
     description: "Opening our first international boutique in Mayfair, bringing Middle Eastern craftsmanship to European luxury markets. This marked our entry into the global luxury jewelry scene.",
     icon: Globe,
     location: "London, UK",
-    image: "/london-boutique-vintage.png",
+    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8amV3ZWxyeXxlbnwwfHwwfHx8MA%3D%3D",
     milestone: "International Growth",
     details: "The London boutique became a bridge between Eastern and Western jewelry traditions, attracting royalty and celebrities."
   },
@@ -32,7 +32,7 @@ const timelineEvents = [
     description: "Establishing our Asian headquarters in Central Hong Kong, connecting Eastern and Western jewelry traditions. This strategic location opened doors to the Asian luxury market.",
     icon: Building,
     location: "Hong Kong",
-    image: "/hong-kong-skyline-80s.png",
+    image: "https://plus.unsplash.com/premium_photo-1681276170281-cf50a487a1b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8amV3ZWxyeXxlbnwwfHwwfHx8MA%3D%3D",
     milestone: "Asian Expansion",
     details: "Our Hong Kong boutique became the gateway to Asia, serving discerning clients across the continent."
   },
@@ -42,7 +42,7 @@ const timelineEvents = [
     description: "Celebrating 100 years of excellence, innovation, and serving discerning clients across three continents. Today, we continue to set new standards in luxury jewelry.",
     icon: Award,
     location: "Worldwide",
-    image: "/modern-istana-boutique.png",
+    image: "https://plus.unsplash.com/premium_photo-1681276169450-4504a2442173?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGpld2Vscnl8ZW58MHx8MHx8fDA%3D",
     milestone: "Century of Excellence",
     details: "With boutiques in major cities worldwide, we remain committed to our founding principles of quality and craftsmanship."
   }

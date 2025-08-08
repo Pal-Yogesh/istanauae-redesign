@@ -10,63 +10,93 @@ import { useCart } from "@/hooks/use-cart"
 const brands = [
   {
     id: 1,
-    name: "Cartier",
-    description: "French luxury and timeless elegance since 1847. Known for iconic designs like the Love bracelet and Panthère collection.",
-    image: "/cartier-collection.png",
-    price: 15000,
-    category: "Luxury Watches",
+    name: "Mattia Cielo",
+    description: "Italian luxury jewelry house renowned for innovative designs and exceptional craftsmanship. Each piece embodies contemporary elegance with timeless appeal.",
+    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=600&fit=crop&auto=format",
+    price: 18500,
+    category: "Italian Luxury",
     featured: true,
-    story: "Founded in Paris, Cartier has been the jeweler of kings and the king of jewelers."
+    story: "Where Italian artistry meets contemporary design in perfect harmony."
   },
   {
     id: 2,
-    name: "Tiffany & Co",
-    description: "Iconic American jewelry house with legendary Tiffany Blue. Setting the standard for luxury since 1837.",
-    image: "/tiffany-diamonds.png",
-    price: 8500,
-    category: "Diamond Rings",
+    name: "Adler Joailliers Depuis 1886",
+    description: "Luxury jewellery brand specializing in exquisite diamond creations and precious gemstone collections that define sophistication.",
+    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=600&fit=crop&auto=format",
+    price: 12500,
+    category: "Luxury Jewellery",
     featured: false,
-    story: "From the famous breakfast scene to engagement dreams, Tiffany defines American luxury."
+    story: "Precision craftsmanship meets timeless elegance in every creation."
   },
   {
     id: 3,
-    name: "Van Cleef & Arpels",
-    description: "Poetry in precious stones and haute joaillerie. Masters of the invisible setting technique.",
-    image: "/vancleef-butterfly.png",
-    price: 25000,
-    category: "High Jewelry",
+    name: "Chanteder Capri",
+    description: "Capri-inspired jewelry house bringing the Mediterranean spirit to life through colorful gemstones and artistic designs rooted in Italian tradition.",
+    image: "https://images.unsplash.com/photo-1631982645875-8bd1db34b1a1?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    price: 15000,
+    category: "Mediterranean Luxury",
     featured: true,
-    story: "Where nature meets artistry, creating pieces that capture the beauty of the natural world."
+    story: "Capturing the essence of Capri's beauty in every handcrafted piece."
   },
   {
     id: 4,
-    name: "Bulgari",
-    description: "Italian magnificence with bold Roman spirit. Renowned for colorful gemstones and architectural designs.",
-    image: "/bulgari-serpenti.png",
-    price: 12000,
-    category: "Statement Pieces",
+    name: "Forms Hong Kong",
+    description: "Fine jewelry brand creating sculptural pieces that blur the line between art and adornment, featuring bold geometric designs.",
+    image: "https://images.unsplash.com/photo-1603048297172-c92544798d5a?w=800&h=600&fit=crop&auto=format",
+    price: 22000,
+    category: "Fine Jewelry",
     featured: false,
-    story: "From Roman heritage to modern glamour, Bulgari embodies Italian excellence."
+    story: "Where architectural precision meets jewelry artistry in stunning forms."
   },
   {
     id: 5,
-    name: "Chopard",
-    description: "Swiss precision meets haute joaillerie. Famous for the Happy Diamonds collection and ethical luxury.",
-    image: "/chopard-happy-diamonds.png",
-    price: 18000,
-    category: "Swiss Luxury",
+    name: "Fullord",
+    description: "Contemporary jewelry house known for innovative techniques and modern aesthetics, creating pieces that define the future of luxury jewelry.",
+    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=600&fit=crop&auto=format",
+    price: 16800,
+    category: "Contemporary Design",
     featured: true,
-    story: "Where Swiss watchmaking tradition meets jewelry artistry in perfect harmony."
+    story: "Pioneering the future of jewelry with innovative design and craftsmanship."
   },
   {
     id: 6,
-    name: "Graff",
-    description: "The ultimate in diamond luxury. Specializing in the world's most exceptional diamonds.",
-    image: "/graff-diamonds.png",
-    price: 45000,
-    category: "Diamond Specialists",
+    name: "Verdi",
+    description: "Elegant jewelry collections featuring refined designs and exceptional gemstones, representing the pinnacle of Italian jewelry craftsmanship.",
+    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=600&fit=crop&auto=format",
+    price: 19500,
+    category: "Italian Excellence",
     featured: true,
-    story: "Setting new standards in diamond excellence with the world's most extraordinary stones."
+    story: "Italian heritage meets modern luxury in every exquisite creation."
+  },
+  {
+    id: 7,
+    name: "Genius Gioielli",
+    description: "Innovative jewelry brand pushing the boundaries of traditional craftsmanship with cutting-edge designs and premium materials.",
+    image: "https://plus.unsplash.com/premium_photo-1728759435328-9a5a417edef7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2F0Y2hlc3xlbnwwfHwwfHx8MA%3D%3D",
+    price: 14200,
+    category: "Innovation",
+    featured: false,
+    story: "Where genius meets craftsmanship to create extraordinary jewelry pieces."
+  },
+  {
+    id: 8,
+    name: "Borsari Gioielli",
+    description: "Gioielli brand specializing in precious gemstone jewelry with Italian flair, creating pieces that celebrate the beauty of natural stones.",
+    image: "https://images.unsplash.com/photo-1506277475657-d4814bb3eaf0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHdyaXN0JTIwYmFuZHxlbnwwfHwwfHx8MA%3D%3D",
+    price: 17300,
+    category: "Gioielli",
+    featured: true,
+    story: "Italian passion for precious stones expressed in timeless jewelry art."
+  },
+  {
+    id: 9,
+    name: "Istana Private Collection",
+    description: "Our exclusive in-house collection featuring bespoke pieces crafted by master artisans, representing the pinnacle of Istana's century-long expertise.",
+    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=600&fit=crop&auto=format",
+    price: 35000,
+    category: "Exclusive Collection",
+    featured: true,
+    story: "A century of expertise culminating in our most exclusive creations."
   }
 ]
 
@@ -101,7 +131,7 @@ export default function BrandShowcase() {
 
       {/* Floating Elements */}
       <div className="absolute inset-0">
-        {Array.from({ length: 12 }).map((_, i) => (
+        {Array.from({ length: 15 }).map((_, i) => (
           <motion.div
             key={i}
             className="absolute w-2 h-2 bg-amber-400/30 rounded-full"
@@ -138,7 +168,7 @@ export default function BrandShowcase() {
           </span>
         </h2>
         <p className="text-lg sm:text-xl text-stone-600 font-light max-w-3xl mx-auto leading-relaxed">
-          The world's most prestigious jewelry houses, each with their own legacy of craftsmanship and innovation.
+          Discover the world's most prestigious jewelry houses, each with their own legacy of craftsmanship and innovation, exclusively available at Istana.
         </p>
       </motion.div>
 
@@ -147,7 +177,7 @@ export default function BrandShowcase() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Desktop Grid */}
           <div className="hidden lg:grid lg:grid-cols-3 gap-8 mb-16">
-            {brands.map((brand, index) => (
+            {brands.slice(0, 9).map((brand, index) => (
               <motion.div
                 key={brand.id}
                 className="group cursor-pointer"
@@ -161,8 +191,8 @@ export default function BrandShowcase() {
                   {/* Image */}
                   <div className="h-64 overflow-hidden relative">
                     <img 
-                      src={brand.image || "/placeholder.svg?height=256&width=400&query=luxury jewelry collection"} 
-                      alt={brand.name}
+                      src={brand.image || "/placeholder.svg"} 
+                      alt={`${brand.name} luxury jewelry collection`}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                     {brand.featured && (
@@ -229,8 +259,8 @@ export default function BrandShowcase() {
                     {/* Image */}
                     <div className="h-48 overflow-hidden relative">
                       <img 
-                        src={brand.image || "/placeholder.svg?height=192&width=320&query=luxury jewelry"} 
-                        alt={brand.name}
+                        src={brand.image || "/placeholder.svg"} 
+                        alt={`${brand.name} luxury jewelry`}
                         className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
                       />
                       {brand.featured && (
